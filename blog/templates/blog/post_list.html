@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
   <head>
       <title>simple title website</title>
@@ -22,8 +23,22 @@
 			{% endblock %}
 		</div>
     </div>
+=======
+<div>
+    <h1><a href="/">Django simple Blog</a></h1>
+>>>>>>> b6da9c38961bb53047490eb2fe0323522b92212a
 </div>
     </body>
 </html>
 
 
+<<<<<<< HEAD
+=======
+{% for post in posts %}
+    <div>
+        <p>published: {{ post.published_date }}</p>
+        <h1><a href="">{{ post.title }}</a></h1>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+{% endfor %}
+>>>>>>> b6da9c38961bb53047490eb2fe0323522b92212a
